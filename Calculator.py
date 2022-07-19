@@ -43,10 +43,5 @@ while flag:
     if dec == "n":
         flag = False
         print("Thank you for using the Calculator")
-    elif dec == "y":
-        dec2 = int(input("Type 1 for new calculation, Type 2 to Continue Your Calculation: "))
-        if dec2 == 2:
-            continue
-        elif dec2 ==1:
-            current =0
+
  
